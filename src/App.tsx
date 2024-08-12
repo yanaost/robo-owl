@@ -13,8 +13,8 @@ import { Coordinates } from "./types/Coordinates";
 import { getNewPossibleCoordinates } from "./helpers/getNewPossibleCoordinates";
 import { isBorderMet } from "./helpers/isBorderMet";
 
-const rows = 4;
-const columns = 4;
+const rows = 5;
+const columns = 5;
 
 export const App = () => {
   const [direction, setDirection] = useState(Direction.up);
