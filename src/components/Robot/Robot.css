@@ -1,0 +1,45 @@
+.robot {
+    position: absolute;
+    left:0;
+    top:0;
+    width:100%;
+    transform: translate(0, 6%);
+    filter: invert(19%) sepia(6%) saturate(3%) hue-rotate(7deg) brightness(98%) contrast(97%);
+}
+
+.arrowsContainer {
+    position: relative;
+    height: 100%
+}
+
+.arrow {
+    filter: invert(44%) sepia(29%) saturate(4645%) hue-rotate(351deg) brightness(92%) contrast(90%);
+}
+
+.arrowUp {
+    position: absolute;
+    top: 0;
+    left : 50%;
+    transform: translate(-50%);
+}
+
+.arrowDown {
+    position: absolute;
+    bottom: 0;
+    left : 50%;
+    transform: translate(-50%);
+}
+
+.arrowRight {
+    position: absolute;
+    top: 50%;
+    right : 0;
+    transform: translate(0, -50%);
+}
+
+.arrowLeft {
+    position: absolute;
+    bottom: 50%;
+    left : 0;
+    transform: translate(0, 50%);
+}

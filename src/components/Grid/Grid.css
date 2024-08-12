@@ -1,0 +1,16 @@
+.grid {
+    display: grid;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #FFFFFF;
+
+    gap: 10px;
+    min-width: 500px;
+    min-height: 500px;
+}
+
+.cell {
+    background-color: #EFEAE5;
+    aspect-ratio: 1;
+    position:relative;
+}
